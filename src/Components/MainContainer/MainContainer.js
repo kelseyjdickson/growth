@@ -80,7 +80,7 @@ image: joy
           job_title: 'Production Engineer and Career Coach ',
           contact_link: 'https://www.linkedin.com/in/nazdelam/',
           image: naz,
-          },
+          }
 
  
 ] 
