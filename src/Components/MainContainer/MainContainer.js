@@ -5,6 +5,7 @@ import kimberly from './kimberly.png'
 import joy from './joy.png'
 import reshma from './reshma.png'
 import tiauna from './Tiauna.png'
+import Veni from './veni.png'
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { readFileSync } from "fs";
@@ -57,13 +58,13 @@ image: joy
     contact_link: 'https://www.linkedin.com/in/tiauna-paul-0981ab193/',
     image: tiauna,
     },
-    // {
-    //   name: '',
-    //   company:'',
-    //   job_title: '',
-    //   contact_link: '',
-    //   image: ,
-    //   },
+    {
+      name: 'Veni Kunche',
+      company:'Diversify Tech',
+      job_title: 'Founder of Diversify Tech',
+      contact_link: 'https://www.linkedin.com/in/venikunche/',
+      image: Veni,
+      },
     //   {
     //     name: '',
     //     company:'',
