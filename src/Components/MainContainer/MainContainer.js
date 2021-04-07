@@ -4,6 +4,7 @@ import erika from './erika.png'
 import kimberly from './kimberly.png'
 import joy from './joy.png'
 import reshma from './reshma.png'
+import tiauna from './Tiauna.png'
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { readFileSync } from "fs";
@@ -48,7 +49,36 @@ image: joy
     job_title: 'Founder of Girls Who Code',
     contact_link: 'https://www.linkedin.com/in/reshma-saujani/',
     image: reshma
-    }
+    },
+    {
+    name: 'Tiauna Paul',
+    company:'Job Searching',
+    job_title: 'Software Engineer',
+    contact_link: 'https://www.linkedin.com/in/tiauna-paul-0981ab193/',
+    image: tiauna,
+    },
+    // {
+    //   name: '',
+    //   company:'',
+    //   job_title: '',
+    //   contact_link: '',
+    //   image: ,
+    //   },
+    //   {
+    //     name: '',
+    //     company:'',
+    //     job_title: '',
+    //     contact_link: '',
+    //     image: ,
+    //     },
+    //     {
+    //       name: '',
+    //       company:'',
+    //       job_title: '',
+    //       contact_link: '',
+    //       image: ,
+    //       },
+
  
 ] 
 
