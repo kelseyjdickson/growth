@@ -6,6 +6,8 @@ import joy from './joy.png'
 import reshma from './reshma.png'
 import tiauna from './Tiauna.png'
 import Veni from './veni.png'
+import catherine from './catherine.png'
+import naz from './Naz.png'
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { readFileSync } from "fs";
@@ -65,20 +67,20 @@ image: joy
       contact_link: 'https://www.linkedin.com/in/venikunche/',
       image: Veni,
       },
-    //   {
-    //     name: '',
-    //     company:'',
-    //     job_title: '',
-    //     contact_link: '',
-    //     image: ,
-    //     },
-    //     {
-    //       name: '',
-    //       company:'',
-    //       job_title: '',
-    //       contact_link: '',
-    //       image: ,
-    //       },
+      {
+        name: 'Catherine Ricafort McCreary',
+        company:'Stitch Fix',
+        job_title: 'Software Engineer and Co-Founder of Artists Who Code',
+        contact_link: 'https://www.linkedin.com/in/catherinericafortmccreary/',
+        image: catherine,
+        },
+        {
+          name: 'Naz Delam',
+          company:'Netflix',
+          job_title: 'Production Engineer and Career Coach ',
+          contact_link: 'https://www.linkedin.com/in/nazdelam/',
+          image: naz,
+          },
 
  
 ] 
