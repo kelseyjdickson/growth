@@ -5,7 +5,7 @@ import kimberly from './kimberly.png'
 import joy from './joy.png'
 import reshma from './reshma.png'
 import tiauna from './Tiauna.png'
-import Veni from './veni.png'
+import veni from './Veni1.png'
 import catherine from './catherine.png'
 import naz from './Naz.png'
 
@@ -65,7 +65,7 @@ image: joy
       company:'Diversify Tech',
       job_title: 'Founder of Diversify Tech',
       contact_link: 'https://www.linkedin.com/in/venikunche/',
-      image: Veni,
+      image: veni,
       },
       {
         name: 'Catherine Ricafort McCreary',
