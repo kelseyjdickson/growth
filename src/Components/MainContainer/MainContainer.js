@@ -94,6 +94,7 @@ const StyledDiv = styled.div`
   justify-content: space-between;
   width:100%;
   height: auto;
+  flex-wrap: wrap;
 
 `
 const MainContainer = () => {

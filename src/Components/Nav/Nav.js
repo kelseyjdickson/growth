@@ -25,6 +25,18 @@ const Nav = () => {
         </Link>
       </ul>
       </Router>
+
+      <Switch>
+        <Route exact path="/">
+
+        </Route>
+        {/* <Route path="/about">
+        <About/>
+        </Route> */}
+        <Route path="/resources">
+        <Resources/>
+        </Route>
+      </Switch>
     </>
   );
 };
