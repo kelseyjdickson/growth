@@ -1,4 +1,5 @@
 import React from "react";
+import About from '../About/About'
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,11 +13,11 @@ import Resources from '../Resources/Resources.js'
 const Nav = () => {
   return (
     <>
-       <Router>
+       <Switch>
       <ul className="nav-link-container">
-        <Link className="nav-link-container__about" to="/about">
+        <NavLink to="/about" className="nav-link-container__about">
           About
-        </Link>
+        </NavLink>
         <NavLink to="/resources"className="nav-link-container__resources" >
           Resources
         </NavLink>
@@ -24,19 +25,19 @@ const Nav = () => {
           Contact
         </Link>
       </ul>
-      </Router>
+      </Switch>
 
-      <Switch>
+      {/* <Switch>
         <Route exact path="/">
 
-        </Route>
+        </Route> */}
         {/* <Route path="/about">
         <About/>
         </Route> */}
-        <Route path="/resources">
+        {/* <Route path="/resources">
         <Resources/>
         </Route>
-      </Switch>
+      </Switch> */}
     </>
   );
 };

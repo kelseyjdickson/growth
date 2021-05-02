@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.scss'
+import {Route} from "react-router-dom";
 
 const Footer = () => {
   
