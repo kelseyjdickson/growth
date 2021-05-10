@@ -111,42 +111,17 @@ let females = womenData.map((info) => {
     color="yellow"
     header="pink"
     key={info.id}
-    
     header={info.name} 
-   
     meta={info.company}
     description={info.job_title}
     image={info.image}
     href={info.contact_link}
     />
-   
-  })
-  
-  
-   
+   })
   return (
-
-    // <InfiniteScroll
-    //   dataLength={females.length}
-    //   loader={<h4>Loading...</h4>}
-    //   endMessage={
-    //     <p style={{textAlign: 'center'}}>
-    //       <b>Yay! You have seen it all</b>
-    //     </p>
-    //   }>
-    
-
-<StyledDiv>
-    
-       {females}
-  
-
-       </StyledDiv>
-   
-
-   
-      
-    // </InfiniteScroll>
+    <StyledDiv>
+      {females}
+    </StyledDiv>
   )
 };
 
