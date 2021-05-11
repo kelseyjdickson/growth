@@ -1,4 +1,5 @@
 import React , {useRef, useEffect, useState} from "react";
+//assets
 import kristal from './kristal.png'
 import erika from './erika.png'
 import kimberly from './kimberly.png'
@@ -8,10 +9,6 @@ import tiauna from './Tiauna.png'
 import veni from './Veni1.png'
 import catherine from './catherine.png'
 import naz from './Naz.png'
-
-import InfiniteScroll from 'react-infinite-scroll-component';
-import { readFileSync } from "fs";
-
 // Styles
 import { Card, Grid, GridColumn } from 'semantic-ui-react'
 import styled from 'styled-components'
