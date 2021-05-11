@@ -87,11 +87,12 @@ image: joy
 
 const StyledDiv = styled.div`
   display: flex;
-   flex-direction: row;
+  flex-direction: row;
   justify-content: space-between;
   width:100%;
   height: auto;
   flex-wrap: wrap;
+  margin: 10px;
 
 `
 const MainContainer = () => {
@@ -99,14 +100,12 @@ const MainContainer = () => {
  
 
 let females = womenData.map((info) => {
-  return <Card color="red"
+  return <Card 
     style={{
-      backgroundColor: "#FAA35C",
+      backgroundColor: "pink",
       
       
     }} 
-    color="yellow"
-    header="pink"
     key={info.id}
     header={info.name} 
     meta={info.company}
